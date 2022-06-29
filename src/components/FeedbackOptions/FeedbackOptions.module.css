@@ -1,0 +1,32 @@
+.btn{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(33, 35, 37);
+    text-shadow: rgb(94, 94, 94) 0px 0px 5px, rgb(94, 94, 94) 0px 0px 10px, rgb(94, 94, 94) 0px 0px 15px, rgb(49, 232, 0) 0px 0px 20px, rgb(49, 232, 0) 0px 0px 30px, rgb(49, 232, 0) 0px 0px 40px, rgb(49, 232, 0) 0px 0px 55px, rgb(49, 232, 0) 0px 0px 75px;
+    background-blend-mode: multiply;
+    -webkit-box-shadow: 10px 8px 9px -2px #000000; 
+     box-shadow: 10px 8px 9px -2px #000000; 
+     cursor: pointer;
+      text-transform: capitalize;
+
+     transform: scale(1);
+     transition: transform 250ms;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+background: rgb(48, 51, 54);
+text-shadow: rgb(93, 93, 93) 0px 0px 5px, rgb(93, 93, 93) 0px 0px 10px, rgb(93, 93, 93) 0px 0px 15px, rgb(232, 0, 114) 0px 0px 20px, rgb(232, 0, 114) 0px 0px 30px, rgb(232, 0, 114) 0px 0px 40px, rgb(232, 0, 114) 0px 0px 50px, rgb(232, 0, 114) 0px 0px 75px;
+background-blend-mode: multiply;
+  }
+
+ 
